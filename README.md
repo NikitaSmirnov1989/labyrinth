@@ -15,5 +15,5 @@
 
 
 ## <span style="color: black; font-size: 24px">Здесь можно просмотреть игру</span>
-https://nikitasmirnov1989.github.io/guess_the_field/
+https://nikitasmirnov1989.github.io/labyrinth/
 </span>
