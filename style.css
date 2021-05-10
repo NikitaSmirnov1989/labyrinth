@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --width-field: 170px;
+    --height-field: 170px;
+    --width-square: 50px;
+    --height-square: 50px;
+}
+
+.wrap-field{
+    position: relative;
+    height: 200px;
+}
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: var(--width-field);
+    height: var(--height-field);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.square{
+    width: var(--width-square);
+    height: var(--height-square);
+    border: 1px solid black;
+    background-color:#8b00ff;
+}
+.startLine{
+    background-image: url(./start.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.horizont{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: var(--width-field);
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 30px;
+}
+.horizont li{
+    width: var(--width-square);
+    background:aqua;
+    text-align: center;
+}
+.vertical{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    height: var(--height-field);
+    width: 30px;
+    position: absolute;
+    top: 30px;
+}
+.vertical li{
+    background:aqua;
+    height: var(--height-square);
+    line-height: var(--height-square);
+    text-align: center;
+}
+.road{
+    width: 198px;
+    height: 100px;
+    display: table;
+    margin-top: 50px;
+}
+.img{
+    width: 49px;
+    height: 50px;
+    display: inline-block;
+}
